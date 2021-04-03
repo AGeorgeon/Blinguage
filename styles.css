@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+li{
+    list-style-type: none;
+}
+
+/*------------------------------------------------------------------*/
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+}
+#NavBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 20px;
+}
+li{
+    margin: 0 20px 0 20px;
+}
+
+#logo{
+    position: absolute;
+    left: 5%
+}
+
+
+
+
+
+
+
