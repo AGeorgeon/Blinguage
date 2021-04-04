@@ -3,33 +3,41 @@
         <title> Blinguage </title>
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="styles.css" media="screen"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet"> 
     </head>
     <header>
-        <article>
-            <img id="logo" src="./assets/images/logo.jpg" alt="logo Blinguage">
-        </article>
-        <article id="NavBar">
+        <img id="logo" src="./assets/images/logo.jpg" alt="logo Blinguage">
             <ul>
-                <li>Contact</li>
+                <li>Courses</li>
                 <li>Why us</li>
                 <li>Support</li>
+                <li><button class="btn">Get Started</button></li>
             </ul>
-            <div>
-                <button>Get Started</button>
-            </div>
-        </article>
     </header>
     <body>
         <!--Section with title & text-->
-        <section>
+        <section id="sectionTexte">
             <h1>Learn Japanese</h1>
-            <p>Visiting the temples in Kyoto, getting a new job, or making a personal connection-no matter why you want to learn, we have the right course for you.</p>
-            <button>Get Started</button>
+            <p id="texteExplicatif">Visiting the temples in Kyoto, getting a new job, or making a personal connection -no matter why you want to learn, we have the right course for you.</p>
+            <button class="btn btn--plein">Get Started</button>
         </section>
 
         <!--Section with link-->
-        <section>
-
+        <section id="grid-container-picture">
+            <div class="grid-item-picture">
+                <img src="./assets/images/book.png" alt="book">
+            </div>
+            <div class="grid-item-picture">
+                <img src="./assets/images/headset.png" alt="headset">
+            </div>
+            <div class="grid-item-picture">
+                <img src="./assets/images/loop.png" alt="loop">
+            </div>
+            <!------------  Texte  ----------->
+            <div><strong>Detailled lessons</strong> packed with vocabulary grammar culture</div>
+            <div><strong>Engaging audio</strong> featuring native speakers to perfect</div>
+            <div><strong>Flexible subscription option</strong> depending on you</div>
         </section>
     </body>
 </html>

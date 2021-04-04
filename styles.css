@@ -13,24 +13,76 @@ header{
     justify-content: space-between;
     height: 70px;
 }
-#NavBar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+body{
+    background-image: url(./assets/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: top right;
+    font-family: 'Source Sans Pro', sans-serif;
 }
+
 ul{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin-right: 20px;
+    margin: 5% 0 0 55%;
 }
 li{
     margin: 0 20px 0 20px;
+    font-size: 15px;
 }
+
+.btn{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    white-space: nowrap;
+    font-family: 'Source Sans Pro';
+    background-color: #f3f4ff;
+}
+
+.btn--plein{
+    background-color: #342a80;
+    border: 2px solid #342a80;
+    color: white;
+    margin-top: 12%;
+}
+
 
 #logo{
     position: absolute;
-    left: 5%
+    /* TODO Regarder la taille de l'image pour la rendre un peu plus petite */
+    width: 15%;
+    margin: 5% 0 0 9%;
+}
+
+#sectionTexte{
+    width: 40%;
+    position: left;
+    margin-left: 10%;
+}
+
+h1{
+    margin-top: 20%;
+    font-size: 6vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+#texteExplicatif{
+    margin-top: 5%;
+    position: left;
+    width: 66%;
+
+}
+
+#grid-container-picture {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.grid-item-picture img {
+    height: 60%;
 }
 
 
