@@ -1,4 +1,4 @@
-# Maquette : Blinguages
+# Maquette : Blinguage
 
 Codage d'une maquette front-end trouvé sur dribbble.com
 
