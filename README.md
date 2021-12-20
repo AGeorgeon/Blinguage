@@ -1,6 +1,6 @@
 # Maquette : Blinguage
 
-Codage d'une maquette front-end trouvé sur dribbble.com
+Codage d'une maquette front-end trouvée sur dribbble.com
 
 ## La maquette dribble.io
 ![Maquette Blinguage](maquette.png) 
